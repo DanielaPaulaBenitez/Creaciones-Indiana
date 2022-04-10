@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-size: 70%;
+}
+@import url('https://fonts.googleapis.com/css2? family= Nunito:wght@700 & display=swap');
+
+
+body {
+    background:url(img/fondo.jpg);
+    background-size: 100%;
+
+}
+.grid-padre{
+    display: grid;
+    grid-template-areas: 
+    'header header header' 
+    'main main main '
+    'footer footer footer'
+    ;
+}
+
+header {
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+
+}
+
+footer{
+    grid-area: footer;
+}
+
+/* HEADER */
+
+.primerlogo {
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+    
+header div h1 {
+    color:rgb(138, 138, 206);
+    font-family:'Nunito',  sans-serif;
+    font-weight: 100;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contendor1 nav  {  
+    display: flex;
+    align-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+nav ul {
+    color:rgb(138, 138, 206);
+    font-family:'Nunito',  sans-serif;
+    list-style-type: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lista4 li{
+    display: inline;
+    padding-left: 4px;
+    padding-right: 4px;
+    justify-content: center;  
+}
+
+/* MAIN */
+
+.banner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.cuadro1 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fotoportada1 img, .fotoportada2 img, .fotoportada3 img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+} 
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section article {
+    background-color: rgb(217, 242, 247);
+    width: 50%;
+    height: 300px;
+    margin: 30px;
+
+}
+
+section article h2 {
+    color: rgb(138, 138, 206);
+    font-family:'Nunito',  sans-serif;
+    width: 150px;
+    font-size:large;
+    
+}
+section article p {
+    color:rgb(138, 138, 206);
+    font-family:'Nunito',sans serif;
+    width: auto;
+    height: auto;
+    font-size:large;
+    
+}
+
+/* FOOTER */
+
+.titulochiquito {
+    color:rgb(138, 138, 206);
+    font-family:'Nunito',  sans-serif;
+    width: 10px;
+}
+
+.redes ul li{
+    padding: 10px;
+    left: 10px;
+    display: inline;    
+    
+}
+
+/*Contacto
+MAIN*/
+
+ .contactos1, .contactos2 , .contactos3, .contactos4 {
+    color:rgb(138, 138, 206);
+    font-family:'Nunito',  sans-serif;
+ }
